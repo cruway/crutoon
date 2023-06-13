@@ -1,3 +1,4 @@
+import 'package:crutoon/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -26,9 +27,7 @@ class _AppState extends State<App> {
         ),
         cardColor: const Color(0xFFF4EDDB),
       ),
-      home: const Scaffold(
-        body: Center(),
-      ),
+      home: const HomeScreen(),
     );
   }
 }
