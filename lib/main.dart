@@ -1,7 +1,9 @@
 import 'package:crutoon/screens/home_screen.dart';
+import 'package:crutoon/services/api_service.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  ApiService().getTodaysToons();
   runApp(const App());
 }
 
